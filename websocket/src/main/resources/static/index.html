@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket 채팅</title>
+    <style>
+    .sent-message {
+      background-color: #E2F0CB;
+      color: #333;
+      text-align: left;
+      padding: 8px;
+      margin-right: 50%;
+      margin-bottom: 10px;
+    }
+
+    .received-message {
+      background-color: #DCF8C6;
+      color: #333;
+      text-align: right;
+      padding: 8px;
+      margin-left: 50%;
+      margin-bottom: 10px;
+    }
+
+  </style>
+</head>
+<body>
+<h1>WebSocket 채팅</h1>
+<div id="chatbox"></div>
+<input type="text" id="messageInput" placeholder="메시지를 입력하세요">
+<button id="sendButton">전송</button>
+
+<script src="script.js"></script>
+</body>
+</html>
